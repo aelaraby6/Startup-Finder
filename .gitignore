@@ -1,0 +1,129 @@
+# =============================================================================
+# Python Bytecode & Cache
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =============================================================================
+# Virtual Environments
+# =============================================================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# =============================================================================
+# Streamlit & Local App Data
+# =============================================================================
+.streamlit/secrets.toml
+logs/
+*.log
+
+# =============================================================================
+# Generated Reports & Exported Data
+# =============================================================================
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.parquet
+*.sqlite
+*.sqlite3
+*.db
+
+# =============================================================================
+# Environment Variables & Sensitive Keys
+# =============================================================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# =============================================================================
+# Testing, Type Checking & Code Quality
+# =============================================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# =============================================================================
+# IDEs & Code Editors
+# =============================================================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Other Editors
+*.swp
+*.swo
+*~
+*.bak
+
+# =============================================================================
+# Operating System Files
+# =============================================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# =============================================================================
+# Temporary / Scratch Dirs
+# =============================================================================
+tmp/
+temp/
+scratch/
